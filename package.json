@@ -1,0 +1,29 @@
+{
+  "name": "game-quest",
+  "version": "1.0.0",
+  "description": "Game Quest - Your AI Gaming Companion. An interactive chatbot that recommends video games based on your preferences using live LLM technology.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "game",
+    "recommendation",
+    "ai",
+    "chatbot",
+    "llm",
+    "gaming",
+    "interactive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahatbalaji/video-game-recommender-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahatbalaji/video-game-recommender-2/issues"
+  },
+  "homepage": "https://mahatbalaji.github.io/video-game-recommender-2/"
+}

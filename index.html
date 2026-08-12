@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Game Quest - Your AI Gaming Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>🎮 Game Quest</h1>
+                <p class="tagline">Your AI Gaming Companion - Ready to Play!</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        <div class="message-avatar">🤖</div>
+                        <div class="message-content">
+                            <p>Hey there, gaming enthusiast! 🎮 I'm Game Quest, your AI gaming companion. Tell me what kind of game you're in the mood for, and I'll recommend something awesome!</p>
+                            <p class="message-meta">Try asking: "I want a fun action game" or "Suggest a strategy game for my phone"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <form id="chatForm" class="input-form">
+                        <input 
+                            type="text" 
+                            id="userInput" 
+                            placeholder="What kind of game do you want to play? (e.g., 'I want an adventure game', 'Best multiplayer game for my phone')"
+                            autocomplete="off"
+                        >
+                        <button type="submit" id="sendBtn" class="send-button">
+                            <span>Send</span>
+                            <span class="send-icon">➤</span>
+                        </button>
+                    </form>
+                    <div class="loading" id="loading" style="display: none;">
+                        <span class="spinner"></span>
+                        <span>Thinking about awesome games...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-panel">
+                <h3>💡 How to Use</h3>
+                <ul>
+                    <li>Describe what you want to play</li>
+                    <li>Mention your preferred platform (mobile, PC, console)</li>
+                    <li>Ask about genre, mood, or gameplay style</li>
+                    <li>Get recommendations with platform info!</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>🎮 Game Quest - Powered by AI | Recommending games since 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
